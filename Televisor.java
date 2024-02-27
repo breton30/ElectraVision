@@ -8,4 +8,28 @@ public class Televisor{
         this.encendido = encendido;
         this.mando = mando;
     }
+    
+    public int getMando () {
+        return mando.getHorasUsado();
+    }
+    
+    public void setMando (int horasDeUso) {
+        mando.setHorasUsado(horasDeUso);
+    }
+    
+    public int getCanales () {
+        return canales;
+    }
+    
+    public void setCanales (int numeroCanales) {
+        canales = numeroCanales;
+    }
+    
+    public boolean getEncendido() {
+        return encendido;
+    }
+    
+    public void setEncendido (boolean estaEncendido) {
+        encendido = estaEncendido;
+    }
 }
