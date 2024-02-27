@@ -8,4 +8,28 @@ public class Mando{
         this.canales = canales;
         this.pila = pila;
     }
+    
+    public int getCanales () {
+        return canales;
+    }
+    
+    public void setCanales (int numeroCanales) {
+        canales = numeroCanales;
+    }
+    
+    public int getHorasUsado () {
+        return horasUsado;
+    }
+    
+    public void setHorasUsado (int horasDeVida) {
+        horasUsado = horasDeVida;
+    }
+    
+    public void setPila (String nombreTipoPila ) {
+        pila.setTipoPila(nombreTipoPila);
+    }
+    
+    public String getPila () {
+        return pila.getTipoPila();
+    }
 }
