@@ -32,4 +32,8 @@ public class Televisor{
     public void setEncendido (boolean estaEncendido) {
         encendido = estaEncendido;
     }
+    
+    public void imprimeDetalles() {
+        System.out.println("Número de canales del televisor: " + canales + "; Está encendido: " + encendido + mando.imprimeDatos());
+    }
 }

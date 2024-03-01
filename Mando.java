@@ -32,4 +32,9 @@ public class Mando{
     public String getPila () {
         return pila.getTipoPila();
     }
+    
+    public String imprimeDatos () {
+        return (" Número de canales: " + canales + "; Número de horas usado del mando: " + horasUsado + "; Horas de vida de la Pila " + pila.getHorasDeVida() + "; Tipo de pila: " + pila.getTipoPila());
+    }
+    
 }
